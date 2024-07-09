@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Banking Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./welcome.css">
+    <link rel="stylesheet" href="./font-awesome/css/font.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 mx-auto">
+                <div class="card p-5">
+                    <h4>Welcome to my FirstBank</h4>
+                    <div class="input-group flex-nowrap mt-2">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="addon-wrapping"><i class="fa fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Enter Username" id="username" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>                    
+                    <div class="input-group flex-nowrap mt-4">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="addon-wrapping"><i class="fa fa-lock"></i></span>
+                        </div>
+                        <input type="password" class="form-control" placeholder="Enter Password" id="password" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                    <button class="btn" style="margin-top: 5%; background-color: blue; width: 100px;" id="btn">Login</button>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./welcome.js"></script>
+</body>
+</html>
